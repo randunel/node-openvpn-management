@@ -75,7 +75,8 @@ describe('server', function() {
             cert: c1cert,
             key: c1key,
             remote: '127.0.0.1',
-            port: 1194
+            port: 1194,
+            noexec: true,
         }));
     });
 
