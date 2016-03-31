@@ -1,6 +1,6 @@
 {
     "name": "openvpn-management",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "OpenVPN process wrapper with management interface.",
     "main": "index.js",
     "scripts": {
