@@ -1,0 +1,22 @@
+{
+    "name": "openvpn-management",
+    "version": "0.0.1",
+    "description": "OpenVPN process wrapper with management interface.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --growl --ignore-leaks --timeout 30000 test/*.test.js"
+    },
+    "keywords": [
+        "openvpn",
+        "vpn",
+        "management"
+    ],
+    "author": "Mihai Ene <dkrandu@yahoo.com>",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "should": "8.3.x",
+        "mocha": "2.4.x",
+        "2cca": "1.x"
+    }
+}
+
